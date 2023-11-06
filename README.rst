@@ -59,6 +59,13 @@ Navigate into the root directory of the ```maweight``` repository and issue
 
     > pip install .
 
+Clone this package (chicken_ct_weights):
+
+.. code-block:: bash
+
+    > git clone https://github.com/cseka7/chicken_ct_weights.git
+
+
 Navigate into the root directory of this package, and issue
 
 .. code-block:: bash
