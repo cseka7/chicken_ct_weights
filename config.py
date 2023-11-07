@@ -12,7 +12,7 @@ manually_segmented_path=os.path.join(path_prefix_data, 'manually_labels')
 dissected_path=os.path.join(path_prefix_data, 'dissected')
 breast_features_path=os.path.join(path_prefix_data, 'breast_training_features-%d-%.2f.csv' % (bin_width, threshold))
 thigh_features_path=os.path.join(path_prefix_data, 'thigh_training_features-%d-%.2f.csv' % (bin_width, threshold))
-xls_path= os.path.join(path_prefix_data, 'chicken_data.xlsx')
+xls_path= os.path.join(path_prefix_data, 'chicken_dissected_data.xlsx')
 
 save_registered_images=True
 
