@@ -38,7 +38,7 @@ Other files
 6. ```results.pickle``` - raw results of the regression analysis without feature selection in pickle format.
 7. ```thigh.tex``` - collected results of the thigh in tex (typesetting language) format.
 8. ```brest.tex``` - collected results of the brest in tex (typesetting language) format.
-7. ```chicken_dissected_data.xlsx``` - results of the dissection study.
+9. ```chicken_dissected_data.xlsx``` - results of the dissection study.
 
 Reproducing the results of the paper
 ----
@@ -50,13 +50,21 @@ Clone the ```maweight``` Python package (https://github.com/cseka7/maweight):
 
 .. code-block:: bash
 
-    > git clone git@github.com:cseka7/maweight.git
+    > git clone https://github.com/cseka7/maweight.git
+
 
 Navigate into the root directory of the ```maweight``` repository and issue
 
 .. code-block:: bash
 
     > pip install .
+
+Clone this package (chicken_ct_weights):
+
+.. code-block:: bash
+
+    > git clone https://github.com/cseka7/chicken_ct_weights.git
+
 
 Navigate into the root directory of this package, and issue
 
