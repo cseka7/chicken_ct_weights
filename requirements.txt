@@ -7,3 +7,4 @@ openpyxl
 tqdm
 imageio
 ipykernel
+jupyter
